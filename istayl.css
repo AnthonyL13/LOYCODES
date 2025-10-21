@@ -1,0 +1,75 @@
+afjh    body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #fff;
+  }
+
+  .site-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .site-logo {
+    /* Set your width & height */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .site-caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .header-right img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .main-content {
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .main-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
